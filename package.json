@@ -1,0 +1,11 @@
+{
+  "name": "leeyah",
+  "version": "1.0.0",
+  "description": "a landing page for leeyah collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashydevs",
+  "license": "ISC"
+}
