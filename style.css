@@ -184,6 +184,68 @@
 
 
 
+.main-caption {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.sub-caption {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.arrival-strip {
+  background: #f5f5f5;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.why-sect {
+  padding: 20px;
+  text-align: center;
+}
+
+.why-list p {
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.cta-sect {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.cta-sect .btn {
+  margin-top: 10px;
+  background: white;
+  color: black;
+}
+
+
+
+
+
 
 
 
