@@ -276,6 +276,11 @@
   background: black;
   color: white;
   text-align: center;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 10px;
   padding: 30px 20px;
 }
 
@@ -283,6 +288,11 @@
   margin-top: 10px;
   background: white;
   color: black;
+}
+
+.cta-text {
+  color: white;
+  font-family: 'Montserrat';
 }
 
 .modal {
@@ -354,6 +364,7 @@
 .media-links {
   margin: 10px 0px;
   display: flex;
+  height: 60px;
   justify-content: center;
   align-items: center;
   width: 100%;
