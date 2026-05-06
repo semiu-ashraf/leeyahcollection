@@ -107,7 +107,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    background-color: black;
+    /* background-color: black; */
     padding: 20px 0px;
     /* row-gap: 30px; */
 }
@@ -124,7 +124,7 @@
 
 
 .product {
-    width: 49%;
+    width: 50%;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -132,18 +132,18 @@
      /* background-color: white; */
      align-items: center;
      justify-content: center;
+     border: 1px solid black;
 }
 
 .product-image {
   position: relative;
   aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
   overflow: hidden;
-  /* width: 100%; */
 }
 
 .img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     background-color: black;
 }
 
@@ -156,8 +156,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
-    /* padding: 0px 20px; */
 }
 
 
@@ -274,7 +272,7 @@
   font-size: 13px;
 }
 
-/* .cta-sect {
+.cta-sect {
   background: black;
   color: white;
   text-align: center;
@@ -285,7 +283,7 @@
   margin-top: 10px;
   background: white;
   color: black;
-} */
+}
 
 .modal {
   position: fixed;
@@ -302,11 +300,9 @@
 }
 
 .modal-board {
-  height: 40%;
+  height: 50%;
   width: 90%;
-  /* margin-top: 25%; */
   position: relative;
-  bottom: 20%;
   background: white;
 }
 
@@ -327,7 +323,6 @@
 .new-fa {
   font-size: 20px;
   cursor: pointer;
-  font-size: 20px;
 }
 
 .media-sect {
@@ -338,6 +333,7 @@
   padding: 20px;
   justify-content: center;
   align-items: center;
+  /* background-color: gray; */
 }
 
 .media-tag  {
@@ -350,8 +346,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   gap: 10px;
 }
 
@@ -360,6 +356,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   /* font-family: 'Montserrat';
   text-decoration: none; */
 } 
